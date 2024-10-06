@@ -1,0 +1,142 @@
+.searchbox{
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 20px auto;
+}
+body{
+  background-color: black;
+}
+input{
+  outline: none;
+  color: white;
+  background-color: black;
+  border: 2px solid  #272727;
+  height: 42px;
+  width: 410px;
+  font-size: 15px;
+  padding-left: 30px;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+button{
+  font-size: 15px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: flex;
+  background-color: #272727;
+  left: 62%;
+  color: white;
+  /* background-color: black; */
+  /* position: absolute; */
+  align-items: center;
+  justify-content: center;
+  padding:10px;
+  height: 47px;
+  width: 120px;
+  border: none;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 20px;
+}
+h3{
+  /* border: 2px solid red; */
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+}
+.align {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+  
+  background-color:black;
+  border: 1px solid  #272727;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s;
+  width: 200px;
+}
+
+.align:hover {
+  transform: scale(1.05);
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border-radius: 5px;
+}
+
+.Conbox {
+  text-align: center;
+  margin-top: 10px;
+}
+
+h1 {
+  color: white;
+  font-size: 1em;
+  margin: 5px 0;
+  /* color: #333; */
+}
+
+@media (max-width: 700px) {
+  .align {
+      width: 80%;
+  }
+}
+.pagin {
+  display: flex;
+  height: 40px;
+  gap: 20px;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+}
+
+.pagin li {
+  margin: 0 5px;
+  color: white;
+  cursor: pointer;
+}
+
+.pagin li a {
+  padding: 8px 12px;
+  border-radius: 4px;
+  text-decoration: none;
+  color: white;
+}
+
+.active {
+  background-color: black; 
+  color: white; 
+}
+
+.pagin li:hover {
+  background-color: #3a3a3a;
+}
+
+.pagin li a:hover {
+  background-color: #272727;
+}
+
+a {
+  text-decoration: none;
+  color: #272727;
+}
+
+.loader{
+display: flex;
+justify-content: center;
+align-items: center;
+}
